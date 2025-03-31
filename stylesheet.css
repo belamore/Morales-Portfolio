@@ -808,3 +808,14 @@ dropdown {
 
 }
 
+.logo2:hover {
+    width: 100px;
+    height: auto; 
+    margin-left: -90px;
+    transition: none;
+    opacity: 1;
+    transform: none;
+
+}
+
+
