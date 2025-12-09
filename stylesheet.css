@@ -911,9 +911,11 @@ img.selfie {
 
 }
 
+
 #image {
     width: 850px;
-    height: 570px;
+    height: 470px;
+
 }
 
 #image:hover {
