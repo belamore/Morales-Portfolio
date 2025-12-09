@@ -7,6 +7,8 @@ const nextBtn = document.getElementById('nextBtn');
 
 const image = document.getElementById('image');
 
+image.src = images[currentIndex];
+
 previousBtn.addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
     image.src = images[currentIndex];
@@ -16,3 +18,4 @@ nextBtn.addEventListener('click', () => {
     image.src = images[currentIndex];
 
 }); 
+
