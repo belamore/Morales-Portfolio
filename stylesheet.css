@@ -890,18 +890,13 @@ img.selfie {
 
 /*slideshow code*/
 .wrapper {
-    width: 300px;
-    margin: 70px auto;
-
+    width: 100%;
+    max-width: 900px;
+    margin: 5px auto;
 }
 
 .slideshow {
-       padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    flex-direction: column;
+    height: auto;
 }
 
 .slideshow div:nth-child(2) {
@@ -911,12 +906,11 @@ img.selfie {
 
 }
 
-
 #image {
-    width: 850px;
-    height: 470px;
-
+    max-width: 100%;
+    height: auto;
 }
+
 
 #image:hover {
     opacity: 1;
